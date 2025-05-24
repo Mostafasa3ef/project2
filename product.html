@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تفاصيل المنتج</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="hamburger">☰</div>
+        <ul class="nav-links">
+            <li><a href="index.html">الرئيسية</a></li>
+            <li><a href="cart.html">السلة</a></li>
+            <li><a href="favorites.html">المفضلة</a></li>
+            <li><a href="profile.html">الملف الشخصي</a></li>
+            <li><a href="admin.html" id="admin-link" style="display: none;">لوحة المدير</a></li>
+            <li><a href="login.html" id="login-link">تسجيل الدخول</a></li>
+            <li><a href="#" id="logout-link" style="display: none;">تسجيل الخروج</a></li>
+        </ul>
+    </nav>
+
+    <div class="product-details">
+        <img id="product-image" alt="صورة المنتج">
+        <h2 id="product-name"></h2>
+        <p id="product-price"></p>
+        <p id="product-stock"></p>
+        <p id="product-description"></p>
+        <button id="add-to-cart">إضافة إلى السلة</button>
+        <button id="add-to-favorites">إلى المفضلة</button>
+        <button id="buy-now">اشتري الآن</button>
+    </div>
+
+    <div class="reviews">
+        <h3>التقييمات</h3>
+        <form id="review-form">
+            <textarea id="review-text" placeholder="أضف تعليقك"></textarea>
+            <input type="number" id="review-rating" min="1" max="5" placeholder="التقييم (1-5)">
+            <button type="submit">إرسال</button>
+        </form>
+        <div id="reviews-list"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

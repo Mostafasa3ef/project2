@@ -1,0 +1,81 @@
+body {
+    font-family: 'Cairo', sans-serif;
+    background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
+    color: #333;
+}
+
+.navbar {
+    background: #1a3c6d; /* أزرق غامق */
+    padding: 15px 0;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    color: #fff !important;
+}
+
+.nav-link {
+    color: #fff !important;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #f4a261 !important; /* برتقالي فاتح */
+}
+
+.navbar-nav .badge {
+    background: #f4a261;
+    color: #1a3c6d;
+}
+
+.container {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2, h3 {
+    color: #1a3c6d;
+}
+
+.btn-primary {
+    background: #f4a261;
+    border: none;
+    transition: background 0.3s;
+}
+
+.btn-primary:hover {
+    background: #e76f51;
+}
+
+.form-control {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.alert {
+    border-radius: 5px;
+}
+
+.news-section, .products-section {
+    margin-bottom: 30px;
+}
+
+.news-item {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.table {
+    background: #fff;
+    border-radius: 5px;
+}
+
+.table th {
+    background: #1a3c6d;
+    color: #fff;
+}
